@@ -89,7 +89,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     child: TextField(
                       decoration: InputDecoration(
-                        hintText: 'Username',
+                        hintText: 'Email',
                         icon: Icon(Icons.email),
                         focusColor: Colors.white,
                       ),
@@ -110,7 +110,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       decoration: InputDecoration(
                         hintText: 'Password',
                         icon: Icon(Icons.lock_outline),
-                        focusColor: Colors.white,
+                        suffixIcon: Icon(Icons.remove_red_eye),
                       ),
                       obscureText: true,
                     ),
